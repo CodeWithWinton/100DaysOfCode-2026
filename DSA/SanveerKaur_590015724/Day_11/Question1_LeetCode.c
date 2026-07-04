@@ -9,7 +9,7 @@ bool isIsomorphic(char* s, char* t) {
     int mapST[256];
     int mapTS[256];
 
-    for(int i = 0; i < 256; i++) {
+    for(int i = 0;i < 256; i++) {
         mapST[i] = -1;
         mapTS[i] = -1;
     }
